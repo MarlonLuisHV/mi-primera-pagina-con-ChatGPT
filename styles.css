@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #fff; /* Blanco normal */
+  }
+  
+  header {
+    background-color: #ffe0b2; /* Amarillo pastel */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #menu {
+    background-color: #fff; /* Blanco normal */
+    padding: 20px;
+  }
+  
+  #razones {
+    background-color: #fff; /* Blanco normal */
+    padding: 20px;
+  }
+  
+  #pedido {
+    background-color: #fff; /* Blanco normal */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #pedido a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcc80; /* Naranja pastel */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  #pedido a:hover {
+    background-color: #ffa726; /* Naranja más oscuro al hacer hover */
+  }
+  
+  #visitanos {
+    background-color: #fff; /* Blanco normal */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #ffe0b2; /* Amarillo pastel */
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+  }
+  
+  /* Estilo para las imágenes de referencia */
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item img {
+    width: 300px; /* Ajusta el tamaño de las imágenes según sea necesario */
+    height: 300px; /* Ajusta el tamaño de las imágenes según sea necesario */
+    margin-right: 20px;
+  }
+  
+  /* Estilo para los títulos de las secciones */
+  h3 {
+    color: #ff9800; /* Naranja */
+    border-bottom: 2px solid #ff9800; /* Línea naranja bajo el título */
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+  }
+  
+  /* Ajustes de estilo para mejorar la visualización en dispositivos móviles */
+  @media only screen and (max-width: 600px) {
+    .menu-item img {
+      width: 80px; /* Ajusta el tamaño de las imágenes para dispositivos móviles */
+      height: 80px; /* Ajusta el tamaño de las imágenes para dispositivos móviles */
+    }
+  }
+  
